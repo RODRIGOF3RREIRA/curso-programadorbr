@@ -1,10 +1,29 @@
-body{
-    background-image:url(./images/backgorund.png);
-    background-repeat: no-repeat;    
+body {
+  background-color: black;
 }
 
-ul{
-    list-style-type:none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+.card {
+  width: 400px;
+  height: 200px;
+  padding: 1px 20px;
+  background: url("./images/backgorund.png") no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 10%;
+  box-sizing: border-box;
+}
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.insta {
+    list-style-image: url('./images/Insta.png');
+}
+.twitter {
+    list-style-image: url('./images/Twitter.png');
+}
+.youtube {
+    list-style-image: url(./images/Youtube.png);
+}
