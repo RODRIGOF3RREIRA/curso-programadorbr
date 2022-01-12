@@ -1,1 +1,0 @@
-Deve utilizar method POST para o servidor conseguir trabalhar com o arquivo 
